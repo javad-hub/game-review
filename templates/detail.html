@@ -1,0 +1,8 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block title%} {{game.name}} {% endblock title%}
+{% block content%}
+<h1>{{game.name}}</h1>
+<img src="{{game.image.url}}">
+<p>{{game.company}}</p>
+{% endblock content %}

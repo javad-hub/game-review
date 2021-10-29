@@ -84,6 +84,7 @@ p {
 	margin: 0 0 15px 0;
 }
 
+
 img {
 	max-width: 100%;
 }
@@ -2339,4 +2340,20 @@ ol {
 	.anime__review__item__text {
 		padding: 18px 20px 20px;
 	}
+}
+
+#best_blog {
+	font-size: 15px;
+	color: white;
+}
+
+#search_button {
+	margin-left: 9.5em;
+	font-size: 20px;
+}
+
+#searched {
+	font-size: 60px;
+	color: #ffffff;
+	margin-top: 36px
 }

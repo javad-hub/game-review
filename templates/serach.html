@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+{% load static%}
+{% block title%}{{searched}}{% endblock title%}
+
+{% block content %}
+{% if searched%}
+<h1 style="margin-left: 11em" id="searched"> You serached for {{searched}}</h1>
+{% for search in searchs%}
+	<a style="margin-left: 58em" href="{% url 'detail' search.pk %}">{{search.name}}></a>
+{% endfor %}
+
+{% else %}
+
+<h1>You didn't search for anything!</h1>
+{% endif%}
+{% endblock content%}
